@@ -32,13 +32,16 @@ while start != False:
         if gameOver == False:
 
             # show the computer's choice in the terminal window
-            print("\nComputer chooses: ", computer)
-
-            print("Player has", playerLives, "lives.")
-            print("Computer has", computerLives, "lives.")
+            # print("\nComputer chooses: ", computer)
+            print("======================================")
+            print("Player has:", playerLives, "lives.")
+            print("Computer has:", computerLives, "lives.")
+            print("======================================")
+            
             print("Choose your weapon!")
+
             player = input("Rock, Paper, or Scissor?\n")
-            print("Player chooses:", player)
+            # print("Player chooses:", player)
 
         # initiate Game Over sequence
         if gameOver == True:
